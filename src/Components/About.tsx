@@ -1,122 +1,50 @@
-import { CheckBadgeIcon } from "@heroicons/react/24/outline";
+import profileImg from "../assets/profile_1.jpg";
 
 function About() {
   return (
-    <div className="max-w-7xl mx-auto py-96 md:py-0">
-      <div>
-        <div className="py-10">
-          <h3 className="pb-1 text-center text-gray-600 font-medium text-xl">
-            Explore My
-          </h3>
-          <h1 className="text-center text-black font-medium text-6xl">
-            Experience
-          </h1>
+    <div className="max-w-7xl h-full mx-auto pt-40 md:py-60">
+      <div className="flex flex-col items-center py-10 ">
+        <h3 className="pb-1 text-center font-medium text-gray-600 text-xl">
+          Get To Know More
+        </h3>
+        <h1 className="text-6xl text-center text-black font-medium">
+          About Me
+        </h1>
+      </div>
+      <div className="flex flex-wrap justify-center items-center pt-10 md:grid md:grid-cols-4">
+        <div className="md:pr-4 col-span-2 flex items-center justify-center ">
+          <img
+            className="w-[400px] h-[400px] mx-0 rounded-3xl"
+            src={profileImg}
+            alt=""
+          />
         </div>
-        <div className="py-10 px-2">
-          <div className="grid grid-cols-2 text-2xl font-medium gap-4">
-            <div className="columns-1 border-2 p-4 border-gray-600 rounded-3xl">
-              <div>
-                <h2 className="text-center py-4 text-gray-500 text-3xl">
-                  Frontend Development
-                </h2>
-              </div>
-              <div className="grid grid-cols-4">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>HTML</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-col items-center md:flex md:flex-col md:items-start md:justify-start">
-                  <h3>CSS</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>Javascript</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>React JS</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-            </div>
-            <div className="columns-1 border-2 p-4 border-gray-600 rounded-3xl">
-              <div>
-                <h2 className="text-center py-4 text-gray-500 text-3xl">
-                  Backend Development
-                </h2>
-              </div>
-              <div className="grid grid-cols-4">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>Node JS</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>MongoDB</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-row flex-wrap justify-center md:flex md:flex-col md:justify-start">
-                  <h3>Express JS</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-              <div className="grid grid-cols-4 py-2">
-                <div className="columns-2 col-span-1 pr-0 flex items-center justify-end md:col-span-2 md:flex md:justify-end md:pr-6">
-                  <span>
-                    <CheckBadgeIcon className="size-7 text-green-600" />
-                  </span>
-                </div>
-                <div className="col-span-2 flex flex-col items-center md:flex md:flex-col md:justify-start md:items-start">
-                  <h3>Git</h3>
-                  <p className="font-light text-sm">Intermediate</p>
-                </div>
-              </div>
-            </div>
+        <div className="col-span-2 py-6 px-3 md:p-0">
+          <h3 className="pb-2 md:pb-0 text-center font-medium md:text-left text-4xl">
+            Education
+          </h3>
+          <div className="flex justify-between items-center pt-3">
+            <h1 className="text-lg font-medium text-left md:text-left">
+              Universidad Catolica de Honduras
+            </h1>
+            <span className="px-2 italic font-medium"> 2009 - 2012</span>
           </div>
+          <p className="text-sm md:text-base">Completed relevant coursework:</p>
+          <p className="text-sm md:text-base">
+            Database Management, System Design, Web development, Operating
+            Systems, etc.
+          </p>
+          <div className="flex justify-between items-center pt-3">
+            <h1 className="text-lg font-medium text-left md:text-left">
+              Los Angeles City College
+            </h1>
+            <span className="px-2 italic font-medium"> 2014 - 2016</span>
+          </div>
+          <p className="text-sm md:text-base">Completed relevant coursework:</p>
+          <p className="text-sm md:text-base">
+            Fundamental Commercial Photography, Intermediate Digital
+            Photography, Fundamentals of Portraiture, etc.
+          </p>
         </div>
       </div>
     </div>

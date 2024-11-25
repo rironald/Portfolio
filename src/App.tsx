@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import Experience from "./Components/Experience";
 import About from "./Components/About";
 
 function App() {
@@ -11,6 +12,8 @@ function App() {
       <Hero />
       {/*About*/}
       <About />
+      {/*Experience*/}
+      <Experience />
     </>
   );
 }
