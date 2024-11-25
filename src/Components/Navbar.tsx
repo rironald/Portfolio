@@ -25,22 +25,22 @@ function Navbar() {
           <div className="hidden md:flex">
             <ul className="px-2 md:flex">
               <li className="text-2xl text-black px-4">
-                <a className="hover:text-gray-600" href="">
+                <a className="hover:text-gray-600" href="#about">
                   About
                 </a>
               </li>
               <li className="text-2xl text-black px-4">
-                <a className="hover:text-gray-600" href="">
+                <a className="hover:text-gray-600" href="#experience">
                   Experience
                 </a>
               </li>
               <li className="text-2xl text-black px-4">
-                <a className="hover:text-gray-600" href="">
+                <a className="hover:text-gray-600" href="#projects">
                   Projects
                 </a>
               </li>
               <li className="text-2xl text-black px-4">
-                <a className="hover:text-gray-600" href="">
+                <a className="hover:text-gray-600" href="#contact">
                   Contact
                 </a>
               </li>

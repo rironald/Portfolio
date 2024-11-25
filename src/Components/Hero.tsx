@@ -3,7 +3,7 @@ import profileImg from "../assets/profile_2.jpg";
 
 function Hero() {
   return (
-    <div className="mx-auto max-w-7xl h-16 py-80 md:flex md:items-center md:justify-center">
+    <div className="mx-auto max-w-7xl h-16 py-60 md:py-80 md:flex md:items-center md:justify-center">
       <div className="w-80 h-80 mb-4 mx-auto lg:mx-0">
         <img src={profileImg} alt="" className="rounded-full" />
       </div>
