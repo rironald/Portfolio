@@ -1,4 +1,6 @@
-import profileImg from "../assets/profile_2.jpg";
+import calculatorLogo from "../assets/calculator_logo.png";
+import logo from "../assets/digimon_logo.jpg";
+import timesheet from "../assets/timesheet_logo.png";
 import { Button } from "@headlessui/react";
 
 function Projects() {
@@ -17,7 +19,7 @@ function Projects() {
       <div className="flex flex-wrap justify-center md:grid md:grid-cols-3 gap-8 ">
         <div className="columns-1 border-2 border-gray-600 rounded-3xl flex items-center justify-center">
           <div className="flex flex-col">
-            <img src={profileImg} className="w-72 h-72 p-4" alt="" />
+            <img src={calculatorLogo} className="w-72 h-72 p-4" alt="" />
             <h3 className="font-medium text-center text-2xl md:text-3xl">
               Calculator App
             </h3>
@@ -30,7 +32,7 @@ function Projects() {
         </div>
         <div className="columns-1 border-2 border-gray-600 rounded-3xl flex items-center justify-center">
           <div className="flex flex-col">
-            <img src={profileImg} className="w-72 h-72 p-4" alt="" />
+            <img src={logo} className="w-72 h-72 p-4 mx-auto" alt="" />
             <h3 className="font-medium text-center text-2xl md:text-3xl">
               Digimon TCG App
             </h3>
@@ -43,7 +45,7 @@ function Projects() {
         </div>
         <div className="columns-1 border-2 border-gray-600 rounded-3xl flex items-center justify-center">
           <div className="flex flex-col">
-            <img src={profileImg} className="w-72 h-72 p-4" alt="" />
+            <img src={timesheet} className="w-72 h-72 p-4" alt="" />
             <h3 className="font-medium text-center text-2xl md:text-3xl">
               Time.ly
             </h3>
