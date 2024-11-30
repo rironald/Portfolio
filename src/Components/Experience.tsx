@@ -2,7 +2,7 @@ import { CheckBadgeIcon } from "@heroicons/react/24/outline";
 
 function Experience() {
   return (
-    <div className="max-w-7xl mx-auto pt-60 md:py-40">
+    <div id="experience" className="max-w-7xl mx-auto pt-60 md:py-40">
       <div>
         <div className="py-10">
           <h3 className="pb-1 text-center text-gray-600 font-medium text-xl">

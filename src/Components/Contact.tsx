@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="max-w-7xl mx-auto pt-60 md:py-40">
+    <div id="contact" className="max-w-7xl mx-auto pt-60 md:py-40">
       <div>
         <div>
           <h3 className="text-center text-black font-medium text-6xl">
@@ -75,8 +75,8 @@ function Contact() {
                     </label>
                     <div className="mt-2">
                       <textarea
-                        id="about"
-                        name="about"
+                        id="message"
+                        name="message"
                         rows={3}
                         className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-gray-400 sm:text-sm/6"
                       ></textarea>

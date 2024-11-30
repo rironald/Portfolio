@@ -2,7 +2,7 @@ import profileImg from "../assets/profile_1.jpg";
 
 function About() {
   return (
-    <div className="max-w-7xl h-full mx-auto pt-40 md:py-60">
+    <div id="about" className="max-w-7xl h-full mx-auto pt-40 md:py-60">
       <div className="flex flex-col items-center py-10 ">
         <h3 className="pb-1 text-center font-medium text-gray-600 text-xl">
           Get To Know More

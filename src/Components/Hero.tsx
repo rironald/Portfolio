@@ -13,13 +13,17 @@ function Hero() {
         <p className="text-gray-600 text-3xl py-3 tracking-tight">
           Frontend Developer
         </p>
-        <div className="py-3 flex items-center gap-2 justify-center md:justify-evenly md:gap-0">
-          <Button className="border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
-            Contact Info
-          </Button>
-          <Button className=" border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
-            Download CV
-          </Button>
+        <div className="py-3 flex items-center justify-center gap-2">
+          <div>
+            <Button className="border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
+              <a href="https://www.linkedin.com/in/riveraronald">LinkedIn</a>
+            </Button>
+          </div>
+          <div>
+            <Button className=" border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
+              <a href="https://www.github.com/rironald">Github</a>
+            </Button>
+          </div>
         </div>
       </div>
     </div>
