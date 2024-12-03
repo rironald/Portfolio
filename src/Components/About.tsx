@@ -1,4 +1,5 @@
 import profileImg from "../assets/profile_1.jpg";
+import { FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function About() {
   return (
@@ -10,8 +11,40 @@ function About() {
         <h1 className="text-6xl text-center text-black font-medium">
           About Me
         </h1>
+        <div className="pb-24 mx-0 md:mx-24">
+          <p className="py-10 text-2xl text-center">
+            Hi, I'm Ronald Rivera! I specialize in crafting visually engaging
+            and user-friendly web experiences as a frontend developer. Alongside
+            coding, I channel my creativity into content creation and
+            photography, bringing stories to life through compelling visuals and
+            dynamic design.
+          </p>
+          <div className="flex justify-center">
+            <div>
+              <a href="https://www.youtube.com/rironald3">
+                <button className="px-3 bg-red-600 text-white rounded-full py-3 hover:-translate-y-2 ease-in-out duration-300">
+                  <FaYoutube size={"30px"} />
+                </button>
+              </a>
+            </div>
+            <div className="px-2">
+              <a href="https://www.linkedin.com/in/riveraronald">
+                <button className="bg-blue-600 text-white rounded-full px-3 py-3 hover:-translate-y-2 ease-in-out duration-300">
+                  <FaLinkedin size={"30px"} />
+                </button>
+              </a>
+            </div>
+            <div>
+              <a href="https://www.github.com/rironald">
+                <button className="bg-gray-800 text-white rounded-full px-3 py-3 hover:-translate-y-2 ease-in-out duration-300">
+                  <FaGithub size={"30px"} />
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="flex flex-wrap justify-center items-center pt-10 md:grid md:grid-cols-4">
+      <div className="flex flex-wrap justify-center pt-60 md:grid md:grid-cols-4">
         <div className="md:pr-4 col-span-2 flex items-center justify-center ">
           <img
             className="w-[400px] h-[400px] mx-0 rounded-3xl"
@@ -19,32 +52,40 @@ function About() {
             alt=""
           />
         </div>
-        <div className="col-span-2 py-6 px-3 md:p-0">
-          <h3 className="pb-2 md:pb-0 text-center font-medium md:text-left text-4xl">
-            Education
-          </h3>
-          <div className="flex justify-between items-center pt-3">
-            <h1 className="text-lg font-medium text-left md:text-left">
-              Universidad Catolica de Honduras
-            </h1>
-            <span className="px-2 italic font-medium"> 2009 - 2012</span>
+        <div className="col-span-2 px-2">
+          <div className="mb-2">
+            <h2 className="p-6 text-center font-medium text-5xl">Education</h2>
           </div>
-          <p className="text-sm md:text-base">Completed relevant coursework:</p>
-          <p className="text-sm md:text-base">
-            Database Management, System Design, Web development, Operating
-            Systems, etc.
-          </p>
-          <div className="flex justify-between items-center pt-3">
-            <h1 className="text-lg font-medium text-left md:text-left">
-              Los Angeles City College
-            </h1>
-            <span className="px-2 italic font-medium"> 2014 - 2016</span>
+          <div className="border-2 p-4 mb-4 border-gray-600 rounded-2xl">
+            <div className="flex justify-between items-center">
+              <h1 className="text-lg font-medium text-left md:text-left">
+                Universidad Catolica de Honduras
+              </h1>
+              <span className="px-2 italic font-medium"> 2009 - 2012</span>
+            </div>
+            <p className="text-sm md:text-base">
+              Completed relevant coursework:
+            </p>
+            <p className="text-sm md:text-base">
+              Database Management, System Design, Web development, Operating
+              Systems, etc.
+            </p>
           </div>
-          <p className="text-sm md:text-base">Completed relevant coursework:</p>
-          <p className="text-sm md:text-base">
-            Fundamental Commercial Photography, Intermediate Digital
-            Photography, Fundamentals of Portraiture, etc.
-          </p>
+          <div className="border-2 p-4 border-gray-600 rounded-2xl">
+            <div className="flex justify-between items-center">
+              <h1 className="text-lg font-medium text-left md:text-left">
+                Los Angeles City College
+              </h1>
+              <span className="px-2 italic font-medium"> 2014 - 2016</span>
+            </div>
+            <p className="text-sm md:text-base">
+              Completed relevant coursework:
+            </p>
+            <p className="text-sm md:text-base">
+              Fundamental Commercial Photography, Intermediate Digital
+              Photography, Fundamentals of Portraiture, etc.
+            </p>
+          </div>
         </div>
       </div>
     </div>
