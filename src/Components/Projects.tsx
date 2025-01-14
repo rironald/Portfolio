@@ -25,7 +25,7 @@ function Projects() {
             </h3>
             <div className="flex items-center justify-center py-4 ">
               <Button className="border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
-                Github
+                Unavailable
               </Button>
             </div>
           </div>
@@ -38,7 +38,7 @@ function Projects() {
             </h3>
             <div className="flex items-center justify-center py-4 ">
               <Button className="border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
-                Github
+                <a href="https://www.github.com/rironald/digitcgapp">Github</a>
               </Button>
             </div>
           </div>
@@ -51,7 +51,7 @@ function Projects() {
             </h3>
             <div className="flex items-center justify-center py-4 ">
               <Button className="border border-black rounded-3xl py-3 px-4 text-sm text-black hover:bg-black hover:text-white">
-                Github
+                Unavailable
               </Button>
             </div>
           </div>
