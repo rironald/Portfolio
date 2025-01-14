@@ -3,7 +3,7 @@ import { FaYoutube, FaLinkedin, FaGithub } from "react-icons/fa";
 
 function About() {
   return (
-    <div id="about" className="max-w-7xl h-full mx-auto pt-40 md:py-60">
+    <div id="about" className="max-w-7xl h-full mx-auto py-8 md:py-40">
       <div className="flex flex-col items-center py-10 ">
         <h3 className="pb-1 text-center font-medium text-gray-600 text-xl">
           Get To Know More
@@ -12,7 +12,7 @@ function About() {
           About Me
         </h1>
         <div className="pb-24 mx-0 md:mx-24">
-          <p className="py-10 text-2xl text-center">
+          <p className="py-10 px-4 text-xl md:px-0 md:text-2xl text-justify">
             Hi, I'm Ronald Rivera! I specialize in crafting visually engaging
             and user-friendly web experiences as a frontend developer. Alongside
             coding, I channel my creativity into content creation and
@@ -44,8 +44,8 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center pt-60 md:grid md:grid-cols-4">
-        <div className="md:pr-4 col-span-2 flex items-center justify-center ">
+      <div className="flex flex-wrap justify-center md:grid md:grid-cols-4">
+        <div className="px-2 md:px-0 md:pr-4 col-span-2 flex items-center justify-center ">
           <img
             className="w-[400px] h-[400px] mx-0 rounded-3xl"
             src={profileImg}

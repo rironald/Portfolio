@@ -5,7 +5,7 @@ import { Button } from "@headlessui/react";
 
 function Projects() {
   return (
-    <div id="projects" className="max-w-7xl mx-auto pt-60 md:py-40">
+    <div id="projects" className="max-w-7xl mx-auto py-8 md:py-40">
       <div>
         <div className="py-10">
           <h3 className="pb-1 text-center text-gray-600 font-medium text-xl">

@@ -1,12 +1,9 @@
-import { Button, Switch } from "@headlessui/react";
+import { Button } from "@headlessui/react";
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 
 function Navbar() {
-  {
-    /*const [isEnabled, setIsEnabled] = useState(false);*/
-  }
   const [isOpen, setIsOpen] = useState(false);
 
   const onToggleMenu = () => {
@@ -56,41 +53,31 @@ function Navbar() {
             </span>
           </div>
           {isOpen && (
-            <div className="absolute pt-64 flex basis-full flex-col items-center transition ease-in-out translate-y-7 duration-300">
+            <div className="absolute md:hidden bg-white top-16 w-full flex flex-col items-center transition ease-in-out translate-y-7 duration-300">
               <ul>
-                <li className="text-2xl text-black py-4">
-                  <a className="hover:text-gray-600" href="">
+                <li className="text-2xl text-center text-black py-4">
+                  <a className="hover:text-gray-600" href="#about">
                     About
                   </a>
                 </li>
-                <li className="text-2xl text-black py-4">
-                  <a className="hover:text-gray-600" href="">
+                <li className="text-2xl text-center text-black py-4">
+                  <a className="hover:text-gray-600" href="#experience">
                     Experience
                   </a>
                 </li>
-                <li className="text-2xl text-black py-4">
-                  <a className="hover:text-gray-600" href="">
+                <li className="text-2xl text-center text-black py-4">
+                  <a className="hover:text-gray-600" href="#projects">
                     Projects
                   </a>
                 </li>
-                <li className="text-2xl text-black py-4">
-                  <a className="hover:text-gray-600" href="">
+                <li className="text-2xl text-center text-black py-4">
+                  <a className="hover:text-gray-600" href="#contact">
                     Contact
                   </a>
                 </li>
               </ul>
             </div>
           )}
-          {/* DM 
-            <Switch
-              checked={isEnabled}
-              onChange={setIsEnabled}
-              className="group inline-flex h-7 w-14 cursor-pointer rounded-full bg-black p-1 transition-colors duration-200 ease-in-out focus:outline-none data-[focus]:outline-1 data-[focus]:outline-white data-[checked]:bg-black/30"
-            >
-              <span className="sr-only">Dark Mode</span>
-              <span className="pointer-events-none inline-block size-5 translate-x-0 rounded-full bg-white ring-0 shadow-lg transition duration-200 ease-in-out group-data-[checked]:translate-x-7"></span>
-            </Switch>
-            */}
         </div>
       </div>
     </div>

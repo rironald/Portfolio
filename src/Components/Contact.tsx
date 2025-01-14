@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div id="contact" className="max-w-7xl mx-auto pt-60 md:py-40">
+    <div id="contact" className="max-w-7xl mx-auto py-8 md:py-20">
       <div>
         <div>
           <h3 className="text-center text-black font-medium text-6xl">
@@ -85,7 +85,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className="mt-6 flex items-center justify-end gap-x-6">
+            <div className=" flex items-center justify-end gap-x-6">
               <button
                 type="button"
                 className="text-sm/6 font-semibold text-gray-900"
